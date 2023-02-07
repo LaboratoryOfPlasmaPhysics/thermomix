@@ -4,6 +4,12 @@
 
   (paper "A4")
 
+  (title_block
+    (date "2023-02-07")
+    (rev "1.1")
+    (company "LPP/CNRS")
+  )
+
   (lib_symbols
     (symbol "Connector_Generic:Conn_02x12_Odd_Even" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at 1.27 15.24 0)
@@ -2165,7 +2171,7 @@
   (symbol (lib_id "power:GND") (at 73.66 70.485 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 18c7fd1b-c790-4343-ba73-bdb31469d0c1)
-    (property "Reference" "#PWR?" (id 0) (at 80.01 70.485 0)
+    (property "Reference" "#PWR0122" (id 0) (at 80.01 70.485 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 76.835 70.9188 90)
